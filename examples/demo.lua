@@ -281,7 +281,13 @@ fv = io.open(p.utils.cwd().."/videos.txt", "r")
 if fv then
     for video in fv:lines() do
         if video ~= "" then
-          table.insert(videos, video)
+            if video:find(":") ~= nil then
+                table.insert(videos, video)
+            elseif video:sub(1,1) == "/" then
+                table.insert(videos, video)
+            else
+                table.insert(videos, p.utils.cwd().."/"..video)
+            end
         end
     end
     fv:close()

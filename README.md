@@ -1,7 +1,7 @@
 Perceptio 0.0.1
 ===============
 
-Copyright (C), 2011-2012 University of York
+Copyright (C) 2011-2012, University of York
 
 Introduction
 ------------

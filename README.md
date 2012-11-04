@@ -5,6 +5,7 @@ Perceptio 0.0.1
 
 Introduction
 ------------
+
 This is a customisable experimental control software designed for running
 linguistic perception experiments.
 

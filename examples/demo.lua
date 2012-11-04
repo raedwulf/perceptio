@@ -257,7 +257,7 @@ screens[1] = perceptio.screen("Questionnaire",
                             stim:info("Email Address", screen["EmailAddress"]:getValue())
                       
                             -- initialise the stimulus table for video questions
-                            videoResponses = stim:table("Videos", {"Video", "Plays", "Response"})
+                            videoResponses = stim:table("Videos", {"Video", "Response"})
                             -- initialise the stimulus table for end questions
                             endResponses = stim:table("End", {"Question", "Response"})
                             -- start playing video immediately
